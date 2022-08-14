@@ -1,0 +1,45 @@
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+	font-family: 'Alfa Slab One', cursive;
+	/*border: solid thin #DC1E21; */
+	width: 50%;
+	margin:auto;
+	padding: 40px;
+	background-color: #ffc24c;
+	float: left;
+}
+header h1{
+	font-size: 2cm;
+	color:#3d2514;
+}
+
+header p{
+	font-size: 0.28cm;
+	color:#3d2514;
+	border: #3d2514 dashed thin;
+	width: 350px;
+}
+header h2{
+	font-size: 1.5cm;
+	color:#3d2514;
+}
+
+.logo{
+	width: 300px;
+	margin-bottom: 71px;
+}
+
+.main_burger{
+	width: 50%;
+	margin-bottom: 50px;
+	float: left;
+	background-color: #ffc24c;
+}
