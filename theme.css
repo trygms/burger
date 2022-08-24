@@ -5,47 +5,44 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
 :root {
-  --mavi1: hsl(205, 100%, 30%);
-  --mavi2: hsl(205, 100%, 40%);
-  --mavi3: hsl(205, 100%, 50%);
-  --mavi4: hsl(205, 100%, 60%);
-  --mavi5: hsl(205, 100%, 70%);
+  /* Color Theme Swatches in RGBA */
+  --nepal-1 : rgba(166, 211, 216, 1);
+  --nepal-2 : rgba(242, 159, 4, 1);
+  --nepal-3 : rgba(242, 115, 4, 1);
+  --nepal-4 : rgba(242, 91, 4, 1);
+  --nepal-5 : rgba(165, 38, 26, 1);
 
-  /* asil renklerin acik tonları */
-  --mavi-6: hsl(205, 89%, 70%);
-  --mavi-7: hsl(205, 90%, 76%);
-  --mavi-8: hsl(205, 86%, 81%);
-  --mavi-9: hsl(205, 90%, 88%);
-  --mavi-10: hsl(205, 100%, 96%);
-  --mavi-11: hsl(205, 3%, 95%);
 
-  /* Basliklar icin kullanilan koyu tonlar */
-  --gri-1: hsl(209, 61%, 16%);
-  --gri-2: hsl(211, 39%, 23%);
-  --gri-3: hsl(209, 34%, 30%);
-  --gri-4: hsl(209, 28%, 39%);
+ 
+  /* Papagan Renkleri*/
+  --papagan-1 : rgba(170, 216, 4, 1);
+  --papagan-2 : rgba(242, 226, 4, 1);
+  --papagan-3: rgba(242, 159, 4, 1);
+  --papagan-4: rgba(242, 48, 4, 1);
+  --papagan-5: rgba(12, 12, 12, 1);
 
-  /* Paragraflar icin kullanilan renkler */
-  --gri-5: hsl(210, 22%, 49%);
-  --gri-6: hsl(209, 23%, 60%);
-  --gri-7: hsl(211, 27%, 70%);
-  --gri-8: hsl(210, 31%, 80%);
-  --gri-9: hsl(212, 33%, 89%);
-  --gri-10: hsl(210, 36%, 96%);
+  /* Pastoral Renkler*/
+  --pastoral-1 : rgba(99, 146, 242, 1);
+  --pastoral-2 : rgba(188, 212, 242, 1);
+  --pastoral-3 : rgba(16, 63, 8, 1);
+  --pastoral-4 : rgba(62, 140, 26, 1);
+  --pastoral-5 : rgba(140, 191, 30, 1);
+  
+  /* Yeşil Soft Renkler */
+  --yesil-soft-1: rgba(133, 158, 144, 1);
+  --yesil-soft-2: rgba(79, 94, 86, 1);
+  --yesil-soft-3: rgba(187, 222, 202, 1);
+  --yesil-soft-4: rgba(197, 235, 213, 1);
+  --yesil-soft-5: rgba(165, 196, 179, 1);
 
-  --mor: hsl(276, 85%, 49%);
-  --beyaz: #fff;
-  --koyu-kirmizi: hsl(360, 67%, 44%);
-  --acik-kirmizi: hsl(360, 71%, 66%);
-  --koyu-yesil: hsl(125, 67%, 44%);
-  --acik-yesil: hsl(125, 71%, 66%);
-  --siyah: #222;
+  /* Parlement Serisi Renkler */
+  --parlement-1: rgba(2, 24, 38, 1);
+  --parlement-2: rgba(10, 48, 63, 1);
+  --parlement-3: rgba(35, 92, 114, 1);
+  --parlement-4: rgba(74, 139, 165, 1);
+  --parlement-5: rgba(145, 196, 216, 1);
 
-  /* Color Theme Swatches in Hex */
-  --green1: #042940;
-  --green2: #005c53;
-  --green3: #9fc131;
-
+ 
   /** Fonts */
   --ff-dyna: "DynaPuff", cursive;
   --ff-nunito: "Nunito", sans-serif;
@@ -54,4 +51,14 @@ font-family: 'Open Sans', sans-serif; */
   /** Shadow */
   --koyu-golge: 0px 0px 15px rgba(0, 0, 0, 0.4);
   --acik-golge: 0px 5px 15px rgba(0, 0, 0, 0.1);
-}
+
+  --golge-1: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --golge-2: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --golge-3: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  --golge-4: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,
+  rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,
+  rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,
+  rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px,
+  rgb(255, 85, 85) 40px -40px;
+  --golge-5: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+  rgb(209, 213, 219) 0px 0px 0px 1px inset;
